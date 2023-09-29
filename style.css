@@ -259,11 +259,18 @@ footer .c-footer{
   .container {
     max-width: 1140px;
   }
+  
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+  .title-hero h1{
+    font-size: 60px;
+    
+  }
+
+  
 }
 
 @media (min-width: 768px) {
@@ -290,10 +297,36 @@ footer .c-footer{
   flex: 0 0 auto;
   width: 58.33333333%;
 }
+
+}
+@media (max-width: 768px) {
+  .services{
+    padding: 0 20px;
+  }
+
+ .title-hero{
+  padding: 0 20px;
+  
+ }
+ .flex-j-i{
+  margin-bottom: 12px;
+ }
+  .title-hero h1{
+    font-size: 40px;
+    
+  }
+ .hero-img-md{
+ position: static; 
+ width: 200px;
+ height: 200px;
+ }
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+
   .container {
     max-width: 540px;
   }
+
+
 }
